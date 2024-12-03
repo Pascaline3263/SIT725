@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locate a Socket</title>
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Locate a Socket</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h4>Search Nearby Charging Stations</h4>
+    <div class="input-field">
+      <input type="text" id="search-location" placeholder="Enter your location">
+    </div>
+    <button class="btn" id="search-btn">Find Stations</button>
+
+    <ul id="stations-list" style="margin-top: 20px;">
+      <!-- The list of stations will appear here -->
+    </ul>
+  </div>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
